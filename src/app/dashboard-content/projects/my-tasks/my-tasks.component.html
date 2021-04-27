@@ -1,0 +1,42 @@
+<div class="tag-box-container">
+    <div class="tag-box-label">
+        My Tasks
+        <img src="../../../assets/icon/star.png" style="height: 15px;">
+    </div>
+    <dx-button class="tag-box-btn" stylingMode="contained" text="NEW TASK"></dx-button>
+    <dx-tag-box class="tag-box-input" [dataSource]="testData" placeholder="Search..." [searchEnabled]="true"
+        [width]="675">
+    </dx-tag-box>
+    <dx-button class="tag-box-btn"  [width]="40">
+        <img src="../../../assets/icon/settings.png" style="width: 20px;">
+    </dx-button>
+    <dx-button class="tag-box-btn"  [width]="40" style="margin-left: 10px;">
+        <img src="../../../assets/icon/rocket.png" style="width: 20px;"></dx-button>
+</div>
+
+<tabset customClass="second-tab-set" class="second-tab-set">
+    <tab heading="List" customClass="second-tab-navs"  class="second-tab-navs">
+        <app-list></app-list>
+    </tab>
+    <tab heading="Task Information" customClass="second-tab-navs" class="second-tab-navs">
+        <app-task-info></app-task-info>
+    </tab>
+    <tab heading="Management" customClass="second-tab-navs" class="second-tab-navs">
+        <app-management></app-management>
+    </tab>
+    <tab heading="CMPV" customClass="second-tab-navs" class="second-tab-navs">
+        <app-cmpv></app-cmpv>
+    </tab>
+    <tab heading="Deadline" customClass="second-tab-navs" class="second-tab-navs">
+        <app-deadline></app-deadline>
+    </tab>
+    <tab heading="Delivrable" customClass="second-tab-navs" class="second-tab-navs">
+        <app-delivrable></app-delivrable>
+    </tab>
+    <tab heading="Gant" customClass="second-tab-navs" class="second-tab-navs">
+        <app-gant></app-gant>
+    </tab>
+    <tab heading="Statistics" customClass="second-tab-navs" class="second-tab-navs">
+        <app-stats></app-stats>
+    </tab>
+</tabset>

@@ -1,0 +1,25 @@
+.nav {
+    border: none;
+}
+
+.navTabs{
+    background-color: rgba(252, 252, 252, 0.6);
+}
+.nav-tabs .nav-link {
+    color: grey;
+    font-size: 20px;
+    border-radius: 0%;
+    border: transparent;
+    background-color: rgba(252, 252, 252, 0.6);
+}
+.nav-tabs .nav-link:hover {
+    background-color: rgba(252, 252, 252, 0.8);
+}
+
+.nav-tabs .nav-link.active {
+    background-color: rgba(252, 252, 252, 0.8);
+    border-bottom: 4px solid rgb(111, 82, 65);
+}
+.nav-tabs .nav-link.active:hover {
+    background-color: rgba(252, 252, 252, 0.6);
+}

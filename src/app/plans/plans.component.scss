@@ -1,0 +1,113 @@
+.navbar{
+    background-image: url('../../assets/img/home-page.png');
+    height: 33%;
+    width: 100%;
+    /*margin-left: 50px;
+    margin-right: 166px;*/
+    /*margin-left: auto;
+    margin-right: auto;*/
+    font-size: 20px;
+
+}
+
+.collapse{
+    margin-inline-start: 300px;
+}
+
+.nav-item a{
+    color: #fff;
+    position: center;
+}
+
+.navbar-brand{
+    color: #fff;
+}
+
+.btn-sign-up{
+    height: 100% !important;
+    background-color: rgb(111, 82, 65);
+    color: #fff;
+    border-radius: 0%;
+    border: 2px solid white;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+.btn-log-in{
+    height: 100% !important;
+    background-color: rgb(158, 105, 103);
+    color: #fff;
+    border-radius: 0%;
+    border: 2px solid white;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.title{
+    font-size: 40px;
+    margin-block-start: 50px;
+    text-align: center
+}
+
+.desc{
+    text-align: center;
+    color: rgb(203, 71, 71)
+}
+
+.custom-container{
+    padding-top: 20px;
+    padding-right: 20%;
+    padding-bottom: 20px;
+    padding-left: 20%;
+}
+
+.btn-create-account{
+    height: 100% !important;
+    background-color: rgb(158, 105, 103, 0.7);
+    color: #fff;
+    width: auto;
+    border-radius: 0%;
+}
+
+.free{
+    text-align: center;
+    background-color:  rgb(227, 208, 206);;
+}
+
+.btn-create-free-account{
+    height: 100% !important;
+    background-color: rgb(158, 105, 103);
+    color: #fff;
+    border-radius: 0%;
+}
+
+.pro{
+    text-align: center;
+    background-color:  rgb(233, 228, 190);
+}
+
+.btn-create-pro-account{
+    height: 100% !important;
+    background-color: rgb(232, 222, 150);
+    color: #fff;
+    border-radius: 0%;
+}
+
+.entreprise{
+    text-align: center;
+    background-color:  rgb(222, 219, 219);
+}
+
+.btn-create-entreprise-account{
+    height: 100% !important;
+    background-color: rgb(186, 181, 181);
+    color: #fff;
+    border-radius: 0%;
+}

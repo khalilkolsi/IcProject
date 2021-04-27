@@ -1,0 +1,57 @@
+.nav {
+    border: none;
+}
+
+.navTabs{
+    background-color: rgba(252, 252, 252, 0.6);
+}
+.nav-tabs .nav-link {
+    color: grey;
+    font-size: 20px;
+    border-radius: 0%;
+    border: transparent;
+    background-color: rgba(252, 252, 252, 0.6);
+}
+.nav-tabs .nav-link:hover {
+    background-color: rgba(252, 252, 252, 0.8);
+}
+
+.nav-tabs .nav-link.active {
+    background-color: rgba(252, 252, 252, 0.8);
+    border-bottom: 4px solid rgb(111, 82, 65);
+}
+.nav-tabs .nav-link.active:hover {
+    background-color: rgba(252, 252, 252, 0.6);
+}
+
+.tag-box-container {
+    display: flex;
+    align-items: center;
+}
+
+.tag-box-label {
+    font-size: 20px;
+    color: rgb(111, 82, 65);
+    margin: 20px ;
+}
+
+.tag-box-input{
+    margin: 20px ;
+    border-radius: 0% !important;
+    background: rgba(252, 252, 252, 0.6);
+}
+
+.tag-box-btn{
+    background-color: rgb(148, 71, 71);
+    border: none;
+    border-radius: 0%;
+    color: white;
+}
+
+
+.data-grid{
+    background: rgba(252, 252, 252, 0.6);
+    margin-inline-end: 1.5%;
+}
+
+

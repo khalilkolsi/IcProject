@@ -1,0 +1,14 @@
+<dx-data-grid class="data-grid" id="gridContainer"
+    [rowAlternationEnabled]="true" [showBorders]="true">
+
+    <dxo-selection [selectAllMode]="allMode" [showCheckBoxesMode]="checkBoxesMode" mode="multiple"></dxo-selection>
+    <dxo-paging [pageSize]="10"></dxo-paging>
+    <dxo-pager [showPageSizeSelector]="true" [allowedPageSizes]="[10, 25, 50, 100]" [showInfo]="true"></dxo-pager>
+
+    <dxi-column dataField="Name"></dxi-column>
+    <dxi-column dataField="Activity"></dxi-column>
+    <dxi-column dataField="Deadline" dataType="date"></dxi-column>
+    <dxi-column dataField="Created By"></dxi-column>
+    <dxi-column dataField="Responsible Person" dataType="string"></dxi-column>
+    <dxi-column dataField="Project" dataType="string"></dxi-column>
+</dx-data-grid>

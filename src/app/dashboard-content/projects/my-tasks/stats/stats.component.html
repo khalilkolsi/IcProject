@@ -1,0 +1,18 @@
+<div class="container">
+    <dx-pie-chart id="pie" title="Area of Countries" palette="bright" [dataSource]="areas"
+        (onPointClick)="pointClickHandler($event)" (onLegendClick)="legendClickHandler($event)">
+        <dxi-series argumentField="country" valueField="area">
+            <dxo-label [visible]="true">
+                <dxo-connector [visible]="true" [width]="1"></dxo-connector>
+            </dxo-label>
+        </dxi-series>
+        <dxo-size [width]="500"></dxo-size>
+        <dxo-export [enabled]="false"></dxo-export>
+    </dx-pie-chart>
+    <br/>
+    <dx-sparkline class="sparkline" [dataSource]="oilCosts" argumentField="month" valueField="2010" type="line"
+        [showMinMax]="true">
+        <dxo-tooltip format="currency"></dxo-tooltip>
+    </dx-sparkline>
+
+</div>

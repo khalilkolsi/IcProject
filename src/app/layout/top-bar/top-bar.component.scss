@@ -1,0 +1,52 @@
+.me-2 {
+    background-color: rgba(252, 252, 252, 0.6);
+    border: none;
+    outline: none;
+    border-radius: 0%;
+    background-image: url("../../../assets/icon/sidebar-search.png");
+    background-size: 25px;
+    background-position: right;
+    right: 7px;
+    top: 7px;
+    bottom: 7px;
+    background-repeat: no-repeat;
+    height: 50px;
+}
+
+.form-select {
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    float: right;
+    margin: 10px;
+    font-size: 20px;
+    right: 2px;
+}
+
+.avatar {
+    margin: auto;
+    width: 60px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: rgb(158, 105, 103);
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.d-flex {
+    margin-left: 50px;
+}
+
+.access-tab {
+    margin-inline-start: 16%;
+    background-color: rgba(252, 252, 252, 0.6);
+    width: 51%;
+}
+
+.body {
+    //margin-inline-start: 15%;
+    padding-right: 100px;
+}
