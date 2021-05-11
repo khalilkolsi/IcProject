@@ -43,7 +43,8 @@ import {
   DxScrollViewModule, 
   DxSortableModule,
   DxPieChartModule,
-  DxSparklineModule
+  DxSparklineModule,
+  DxTabsModule
 } from 'devextreme-angular';
 
 import { DxGanttModule } from 'devextreme-angular';
@@ -100,7 +101,8 @@ if (!/localhost/.test(document.location.host)) {
     DxScrollViewModule, 
     DxSortableModule,
     DxPieChartModule,
-    DxSparklineModule
+    DxSparklineModule,
+    DxTabsModule
   ],
   providers: [TabsetConfig, DeadLineService,  Service],
   bootstrap: [AppComponent]

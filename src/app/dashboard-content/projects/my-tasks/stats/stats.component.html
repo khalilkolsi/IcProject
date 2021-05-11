@@ -1,5 +1,5 @@
 <div class="container">
-    <dx-pie-chart id="pie" title="Area of Countries" palette="bright" [dataSource]="areas"
+    <dx-pie-chart id="pie" palette="bright" [dataSource]="areas"
         (onPointClick)="pointClickHandler($event)" (onLegendClick)="legendClickHandler($event)">
         <dxi-series argumentField="country" valueField="area">
             <dxo-label [visible]="true">

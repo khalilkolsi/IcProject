@@ -10,6 +10,7 @@ import { WorkspaceComponent } from './dashboard-content/workspace/workspace.comp
 import { ProjectsComponent } from './dashboard-content/projects/projects.component';
 import { MyProjectsComponent } from './dashboard-content/projects/my-projects/my-projects.component';
 import { MyTasksComponent } from './dashboard-content/projects/my-tasks/my-tasks.component';
+import { GantComponent } from './dashboard-content/projects/my-tasks/gant/gant.component';
 
 const routes: Routes = [
   {
@@ -28,23 +29,26 @@ const routes: Routes = [
   }, {
     path: 'login',
     component: LoginComponent
-  }, {
+  },   {
     path: 'dashboard',
     component: DashboardComponent,
-    children:[ 
+    children: [
       {
         path: 'workspace',
         component: WorkspaceComponent
       }, {
         path: 'projects',
         component: ProjectsComponent
+      },{
+        path: 'gantt',
+        component: GantComponent
       },
       {
         path: '**',
         redirectTo: 'workspace'
       }
     ]
-  },  
+  },
 ];
 
 @NgModule({

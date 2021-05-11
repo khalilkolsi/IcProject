@@ -1223,6 +1223,15 @@ resourceAssignments: ResourceAssignment[] = [{
   showResources: boolean;
   showCustomTaskTooltip: boolean;
 
+  longtabs = [
+    { text: "user" },
+    { text: "analytics" },
+    { text: "customers" },
+    { text: "search" },
+    { text: "favorites" },
+    { text: "additional" },
+];
+
   
 
 
